@@ -2,6 +2,13 @@
 
 IssueNote 是基于 quasar 构建，将个人笔记存储于 issue 里的多端应用
 
+- gitee: https://gitee.com/QWganker/issuenote
+- github https://github.com/qwganker/issuenote
+
+### 预览
+
+![image](./docs/imgs/preview.png)
+
 ### 开发手册
 
 1. 安装依赖
