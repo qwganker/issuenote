@@ -1,6 +1,6 @@
 ### IssueNote
 
-IssueNote 是基于 quasar 构建，将个人的笔记存储于仓库的 issue 里的多端应用
+IssueNote 是基于 quasar 构建，将个人笔记存储于 issue 里的多端应用
 
 ### 开发手册
 
