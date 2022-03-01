@@ -29,3 +29,7 @@ quasar dev
 ```
 quasar build -m electron
 ```
+
+### 交流
+
+QQ 群(764361968)
