@@ -14,6 +14,7 @@ IssueNote 是基于 quasar 构建，将个人笔记存储于 issue 里的多端�
 1. 安装依赖
 
 ```bash
+npm install -g @quasar/cli
 npm install
 ```
 
