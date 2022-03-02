@@ -1,6 +1,8 @@
 ### IssueNote
 
-IssueNote 是基于 quasar 构建，将个人笔记存储于 issue 里的多端应用
+IssueNote 是基于 [quasar](https://quasar.dev/) 构建，将个人笔记存储于 github issue 的私人笔记
+
+### 源码地址:
 
 - gitee: https://gitee.com/QWganker/issuenote
 - github https://github.com/qwganker/issuenote
@@ -8,6 +10,10 @@ IssueNote 是基于 quasar 构建，将个人笔记存储于 issue 里的多端�
 ### 预览
 
 ![image](./docs/imgs/preview.png)
+
+### 设置
+
+![image](./docs/imgs/setting.png)
 
 ### 开发手册
 
@@ -24,11 +30,15 @@ npm install
 quasar dev
 ```
 
+本地访问地址: http://localhost:8080
+
 3. 打包 electron 应用
 
 ```
 quasar build -m electron
 ```
+
+打包的应用存放在 dist/electroon 目录下
 
 ### 交流
 
