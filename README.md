@@ -9,11 +9,16 @@ IssueNote 是基于 [quasar](https://quasar.dev/) 构建，将个人笔记存储
 
 ### 预览
 
-![image](./docs/imgs/preview.png)
+![image](https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/preview.png)
 
 ### 设置
 
-![image](./docs/imgs/setting.png)
+1. 先申请 [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+2. 创建一个用于存放笔记的仓库
+3. 启动项目，在仓库管理设置参数，并保存
+
+![image](https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/setting.png)
 
 ### 开发手册
 
