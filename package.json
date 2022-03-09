@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@datatraccorporation/markdown-it-mermaid": "^0.5.0",
+    "@electron/remote": "^2.0.5",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.26.0",
     "babel-runtime": "^6.26.0",

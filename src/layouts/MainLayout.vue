@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="lHh lpR fFf">
-      <q-header elevated class="bg-cyan-8">
+      <q-header elevated class="bg-cyan-8 q-electron-drag">
         <q-toolbar>
           <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
           <q-space />
@@ -14,6 +14,11 @@
             @click="userProfileDialog = true"
           />
           <!-- <q-btn flat round dense icon="more_vert" /> -->
+          <div v-if="isElectron()">
+            <q-btn dense flat icon="minimize" @click="minimize" />
+            <q-btn dense flat icon="crop_square" @click="toggleMaximize" />
+            <q-btn dense flat icon="close" @click="closeApp" />
+          </div>
         </q-toolbar>
       </q-header>
 
@@ -175,9 +180,36 @@ import { ref } from "vue";
 
 export default {
   setup() {
+    // we rely upon
+    function minimize() {
+      if (process.env.MODE === "electron") {
+        window.myWindowAPI.minimize();
+      }
+    }
+
+    function toggleMaximize() {
+      if (process.env.MODE === "electron") {
+        window.myWindowAPI.toggleMaximize();
+      }
+    }
+
+    function closeApp() {
+      if (process.env.MODE === "electron") {
+        window.myWindowAPI.close();
+      }
+    }
+
+    function isElectron() {
+      return process.env.MODE === "electron";
+    }
+
     return {
       drawer: ref(false),
       userProfileDialog: ref(false),
+      minimize,
+      toggleMaximize,
+      closeApp,
+      isElectron,
     };
   },
 
