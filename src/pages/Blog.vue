@@ -42,7 +42,7 @@
                   /></div
               ></template>
               <template v-slot:after>
-                <q-card style="margin: 5px">
+                <q-card flat bordered style="margin: 5px; padding: 5px 10px">
                   <q-markdown v-model:src="onIssue.body"> </q-markdown>
                 </q-card>
               </template>

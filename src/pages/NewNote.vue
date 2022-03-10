@@ -34,7 +34,7 @@
               <textarea v-model="newIssue.body" :rows="30" class="fit" /></div
           ></template>
           <template v-slot:after>
-            <q-card style="margin: 5px">
+            <q-card flat bordered style="margin: 5px; padding: 5px 10px">
               <q-markdown v-model:src="newIssue.body"> </q-markdown>
             </q-card>
           </template>
