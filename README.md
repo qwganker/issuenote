@@ -9,7 +9,10 @@ IssueNote 是基于 [quasar](https://quasar.dev/) 构建，将个人笔记存储
 
 ### 预览
 
+### web模式
 ![image](https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/preview.png)
+### electron模式
+![image](https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/electron.png)
 
 ### 设置
 
