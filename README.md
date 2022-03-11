@@ -1,6 +1,6 @@
 ### IssueNote
 
-IssueNote 是基于 [quasar](https://quasar.dev/) 构建，将个人笔记存储于 github issue 的私人笔记
+IssueNote 是基于 [quasar](https://quasar.dev/) 构建，将个人笔记存储于 github issue 的私人笔记，支持web和electron(理论上也支持安卓/ios)
 
 ### 源码地址:
 
