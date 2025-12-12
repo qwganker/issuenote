@@ -47,7 +47,3 @@ quasar build -m electron
 ```
 
 打包的应用存放在 dist/electroon 目录下
-
-### 交流
-
-QQ 群(764361968)
